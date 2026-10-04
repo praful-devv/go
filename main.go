@@ -1,11 +1,19 @@
 package main
 
-import (
-	"fmt"
-	"practice/name"
-)
+import "fmt"
 
 func main() {
-	fmt.Println(("hello"))
-	name.Name("praful")
+	var a string 
+	fmt.Println(a)
+	a = "hello my name is praful"
+	fmt.Println(a)
+
+	var panipuri int
+	fmt.Println(panipuri)
+
+	var isVerify bool = true
+	fmt.Println(isVerify)
+
+	
+
 }
