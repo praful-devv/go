@@ -4,18 +4,12 @@ import "fmt"
 
 func main() {
 
-	var a int8 = 127
+	var a string = "praful"
 	fmt.Println(a)
-	var b int64 = 127
-	fmt.Println(b)
-	var c uint8 = 45
-	fmt.Println(c)
-	var d int8 = 45
-	fmt.Println(d)
-	d = -45
-	fmt.Println(d)
-
-	var dd = uint8(b)
-
-	fmt.Println(dd)
+	a = "this is \n new "
+	fmt.Println(a)
+	a= `sd fdgtfdg gdgd gdfg  
+	
+	fgdgdgd`
+	fmt.Println(a)
 }
