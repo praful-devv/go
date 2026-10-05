@@ -3,17 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	var a string 
+
+	var a int8 = 127
 	fmt.Println(a)
-	a = "hello my name is praful"
-	fmt.Println(a)
+	var b int64 = 127
+	fmt.Println(b)
+	var c uint8 = 45
+	fmt.Println(c)
+	var d int8 = 45
+	fmt.Println(d)
+	d = -45
+	fmt.Println(d)
 
-	var panipuri int
-	fmt.Println(panipuri)
+	var dd = uint8(b)
 
-	var isVerify bool = true
-	fmt.Println(isVerify)
-
-	
-
+	fmt.Println(dd)
 }
